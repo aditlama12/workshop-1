@@ -2,50 +2,75 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Adit Lama</title>
     <link rel="stylesheet" href="workshop1.css">
 </head>
+
 <body>
+
 <header>
-    <a class="logo" href="/">Adit Lama</a>
-    <ul>
+    <a href="/" class="logo">Adit Lama</a>
+    <ul class="nav">
         <li><a href="#About">About</a></li>
         <li><a href="#Projects">Projects</a></li>
         <li><a href="#Contacts">Contact</a></li>
     </ul>
 </header>
+
 <main>
-    <section id="About" class="box">
-        <h1>About Me</h1>
-        <p>My name is Adit Lama. A cyber security student and I like to code.</p>
-    </section>
-    <section id="Projects" class="box">
-        <h2>My Projects</h2>
+
+<section id="About" class="box">
+    <h1>About Me</h1>
+    <p>My name is Adit Lama. I am a Cyber Security student and I love coding.</p>
+</section>
+
+<section id="Projects" class="box">
+    <h2>My Projects</h2>
+
+    <div class="img-container">
         <div class="img-box">
-            <img src="public/weather.jpeg" alt="Weather Project">
+            <img src="public/weather.jpeg" alt="Project 1">
             <p>Weather App</p>
         </div>
+
         <div class="img-box">
-            <img src="public/sunny.jpeg" alt="Sunny Project">
-            <p>Sunny App</p>
+            <img src="public/sunny.jpeg" alt="Project 2">
+            <p>Sunny Day App</p>
         </div>
-        <h4>Project 1</h4>
-        <p>A brief description.</p>
-    </section>
-    <section id="Contacts" class="box">
-        <h2>Contact Me</h2>
-        <label>Name:</label>
-        <input type="text" placeholder="Enter your name">
-        <label>Email:</label>
-        <input type="email" placeholder="Enter your email">
-        <label>Description:</label>
-        <textarea placeholder="Description here"></textarea>
-        <button>Submit</button>
-    </section>
+    </div>
+
+</section>
+
+<section id="Contacts" class="box">
+    <h2>Contact Me</h2>
+
+    <form>
+        <div class="contact-group">
+            <label>Name:</label>
+            <input type="text" placeholder="Enter your name">
+        </div>
+
+        <div class="contact-group">
+            <label>Email:</label>
+            <input type="email" placeholder="Enter your email">
+        </div>
+
+        <div class="contact-group">
+            <label>Description:</label>
+            <textarea placeholder="Enter your message"></textarea>
+        </div>
+
+        <button type="submit" class="submit-btn">Submit</button>
+    </form>
+</section>
+
 </main>
+
 <footer>
-    &copy; Copyright belongs to Adit Lama
+    &copy; 2025 Adit Lama — All Rights Reserved
 </footer>
+
 </body>
 </html>
 
