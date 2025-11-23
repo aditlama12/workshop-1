@@ -1,40 +1,51 @@
 <!DOCTYPE html>
+<html lang="en">
 <head>
-	<title>Protfolio</title>
-	<link rel="stylesheet" href="workshop1.css">
+    <meta charset="UTF-8">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="workshop1.css">
 </head>
-
 <body>
-	<header>
-		<a href="/">Adit Lama</a>
-	<ul>
-	<li><a>About<a></li>
-	<li><a>Project<a></li>
-	<li><a>Content<a></li>
+<header>
+    <a class="logo" href="/">Adit Lama</a>
+    <ul>
+        <li><a href="#About">About</a></li>
+        <li><a href="#Projects">Projects</a></li>
+        <li><a href="#Contacts">Contact</a></li>
     </ul>
 </header>
 <main>
-<section id= "About">
-	<h1>About Me</h1>
-	<h4>My name is Adit Lama. A cyber security student and i like to code.</h4>
-</section>
-<section id="My Projects">
-	<h3>My projects</h3>
-	<img src="public/weather.jpeg"/>
-	<img src="public/sunny.jpeg"/>
-	<h4>project 1</h4>
-	<p> A brief discription</p>
-</section>
-<section id="Contacts">
-	<label>Name:</label>
-	<input type ="input" placeholder="Enter your name">
-	<label>Email:</label>
-	<input type="input" placeholder="Enter your email">
-	<label>Description:</label>
-	<input type="text" placeholder="Description">
-	<button>Submit</button>
-</section>
-<footer>&copy; copyright belongs to Adit Lama</footer>
-</body>	
+    <section id="About" class="box">
+        <h1>About Me</h1>
+        <p>My name is Adit Lama. A cyber security student and I like to code.</p>
+    </section>
+    <section id="Projects" class="box">
+        <h2>My Projects</h2>
+        <div class="img-box">
+            <img src="public/weather.jpeg" alt="Weather Project">
+            <p>Weather App</p>
+        </div>
+        <div class="img-box">
+            <img src="public/sunny.jpeg" alt="Sunny Project">
+            <p>Sunny App</p>
+        </div>
+        <h4>Project 1</h4>
+        <p>A brief description.</p>
+    </section>
+    <section id="Contacts" class="box">
+        <h2>Contact Me</h2>
+        <label>Name:</label>
+        <input type="text" placeholder="Enter your name">
+        <label>Email:</label>
+        <input type="email" placeholder="Enter your email">
+        <label>Description:</label>
+        <textarea placeholder="Description here"></textarea>
+        <button>Submit</button>
+    </section>
 </main>
+<footer>
+    &copy; Copyright belongs to Adit Lama
+</footer>
+</body>
 </html>
+
